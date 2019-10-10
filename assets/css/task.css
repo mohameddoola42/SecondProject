@@ -1,0 +1,175 @@
+.login{
+  border: 5px green solid;
+  color:green;
+
+}
+.login a{
+  color:green;
+}
+
+.first{
+  padding-top: 10px;
+  border-bottom: 1px grey solid;
+}
+.rese{
+  margin-top: 20px;
+  display: none;
+}
+.form1{
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top: 30px;
+  border: 2px grey solid;
+  display: inline-block;
+  border-radius: 5%;
+  color:rgb(11,31,53);
+
+}
+
+.second{
+  height: 40px;
+  background-color: #7F8D8B;
+  font-size: 14px;
+  font-weight: 400;
+  color:white;
+}
+.second > div{
+  padding-top: 10px;
+}
+.second .active{
+  background: black;
+  height: 100%;
+}
+.third{
+  padding-top: 10px;
+}
+.str{
+  color:green;
+}
+.car{
+  width: 100%;
+  height: 500px;
+  margin-top: 40px;
+  background-image:url("https://www.lojack.com/wp-content/uploads/2018/08/LJ-Customer-Loyalty-Blog.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
+  padding-top: 50px;
+  position: relative;
+}
+
+.world{
+  width: 100%;
+  height: 500px;
+  border-top: 5px white solid;
+  color:white;
+  padding-top: 25px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Greenpeace_worldwide.svg/1280px-Greenpeace_worldwide.svg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.world::before{
+content: ' ';
+position: absolute;
+width: 100%;
+height: 100%;
+background: black;
+opacity: 0.3;
+left:0px;
+top:0px;
+
+}
+.inworld{
+  margin-top: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.inworld a{
+  color:white;
+  border-bottom: 1px dotted;
+  padding-top: 10px;
+}
+.inworld a:hover{
+  text-decoration: none;
+}
+
+.padtext{
+  padding-bottom: 20px;
+}
+.fnt{
+  font-size: 1.5em;
+}
+
+
+.write{
+  padding-top: 250px;
+}
+
+.afterworld{
+  width: 100%;
+  height: 560px;
+  margin-top: 40px;
+
+}
+.afterworld h3{
+  color: #445755;
+
+}
+.afterworld a{
+  margin-left: 50px;
+}
+.afterworld img {
+    border: 0;
+
+    height: 300px ;
+    display:inline-block;
+
+}
+
+.nav-tabs li a{
+  background: transparent !important;
+  border: none !important;
+  color:#8a9c2b;
+}
+.nav-tabs li a:hover{
+  color:green !important;
+}
+
+.nav-tabs li a:active {
+  color:green !important;
+}
+.car:before{
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  top: 0;
+  left:0;
+}
+.footer{
+  width: 100%;
+  background-color:#445755;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* padding-left: 500px;
+  padding-right: 500px; */
+}
+.footer .container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footer a{
+  color:white;
+  text-decoration: underline;
+
+}
+
+.about{
+  width: 100%;
+  height: 450px;
+
+}
